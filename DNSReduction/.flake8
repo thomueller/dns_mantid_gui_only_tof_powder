@@ -1,0 +1,28 @@
+[flake8]
+exclude =
+    .git,
+    buildconfig,
+    docs,
+    Framework/Algorithms/test,
+    Framework/DataObjects,
+    Framework/MPIAlgorithms,
+    Framework/PythonInterface/mantid,
+    Framework/PythonInterface/test,
+    Framework/WorkflowAlgorithms,
+    images,
+    installers,
+    instrument,
+    MantidPlot,
+    qt/applications/workbench/workbench/app/resources.py,
+    qt/paraview_ext,
+    qt/python/mantidqt/resources.py,
+    qt/scientific_interfaces,
+    qt/widgets,
+    scripts/test,
+    Testing/PerformanceTests,
+    Testing/SystemTests/lib,
+    Testing/SystemTests/scripts,
+    Testing/SystemTests/tests/analysis/reference,
+    Testing/Tools,
+max-complexity = 20
+max-line-length = 79
